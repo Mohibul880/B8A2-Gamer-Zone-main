@@ -355,6 +355,9 @@ small{
     header nav ul li{
         padding: 10px 0;
     }
+     /* ------------nav section styles end -------------*/
+
+     
     /* --------banner section styles start---------*/
 
     .banner-conteiner{
@@ -363,11 +366,11 @@ small{
     }
     .banner{
         background-image: none;
-        margin: 110px 50px ;
+        margin: 111px 50px ;
     }
     .banner-img img{
         width: 100%;
-        margin-top: 30px;
+        margin-top: 28px;
     }
     .banner-title{
         font-size: 2rem;
@@ -377,13 +380,14 @@ small{
     .banner-main-title{
         font-size: 3rem;
         text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 14px;
     }
     .banner-description{
-        margin-top: 4px;
+        margin-top: 5px;
         font-size: .8rem;
     }
     
+    /* --------banner section styles end---------*/
   
 
     
@@ -406,8 +410,9 @@ small{
     .card-section-description{
         font-size: .8rem;
     }
+    /*--------- card section styles end----------- */
 
-    /* instant-playing section styles */
+    /*------------ instant-playing section styles start------------*/
     
     .instant-playing-section{
         flex-direction: column;
@@ -439,7 +444,9 @@ small{
 
         
     }
-    /* multiple button section styles */
+  /*------------ instant-playing section styles end------------*/
+
+    /* --------multiple button section styles start-----------*/
 
     .multiple-button-conteiner{
         margin-top: 50px;
@@ -460,8 +467,9 @@ small{
         align-items: center;
         margin-bottom: 30px;
     }
+ /* --------multiple button section styles end-----------*/
 
-    /* footer section styles */
+    /* --------footer section styles start ---------- */
     .footer-menu ul{
         display: flex;
         justify-content: center;
@@ -501,5 +509,6 @@ small{
         font-size: .6rem;
         font-weight: 500;
     }
+    /* --------footer section styles end ---------- */
 }
 
